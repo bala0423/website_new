@@ -261,7 +261,7 @@ a, a:hover {
 }
 
 #menu > ul > li.active.client > a, #menu > ul > li.client:hover, #menu > ul > li.client > a:hover:after {
-    background-color : #face2f;
+    background-color : #3f51b5;
 }
 
 #menu > ul > li.active.blog > a, #menu > ul > li.blog:hover, #menu > ul > li.blog > a:hover:after {
@@ -814,26 +814,19 @@ a, a:hover {
 		padding-left:30px;
 }
 
-#client ul {
-	    font-size: 14px;
-		margin-left:35px;
-}
-#client li {
-	    font-size: 14px;
-		list-style:circle;
-		text-align:justify;
-}
+
+
 
 #client-wrapper:before {
-    border-left-color : #ffe175;
+    border-left-color : #3e57e0;
 }
 
 #client {
-    background          : -webkit-linear-gradient(left, #face2f 0%, #face2f 100%), -webkit-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -moz-linear-gradient(left, #face2f 0%, #face2f 100%), -moz-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -o-linear-gradient(left, #face2f 0%, #face2f 100%), -o-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -ms-linear-gradient(left, #face2f 0%, #face2f 100%), -ms-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : linear-gradient(left, #face2f 0%, #face2f 100%), linear-gradient(left, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
+    background          : -webkit-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -webkit-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -moz-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -moz-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -o-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -o-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -ms-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -ms-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : linear-gradient(left, #3f51b5 0%, #3f51b5 100%), linear-gradient(left, #3f51b5 0%, #3f51b5 100%); /* Chrome10+,Safari5.1+ */
     background-position : -100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 }
@@ -848,7 +841,7 @@ a, a:hover {
     font-size      : 18px;
 	text-transform : uppercase;
 	font-weight:bold;
-	color:#9e1a1a;
+	color: #424242;
 
 }
 #client h4 {
@@ -858,7 +851,7 @@ a, a:hover {
 	text-transform : uppercase;
 	padding-left:15px;
 	font-weight:bold;
-	color:#9e1a1a;
+	color: #424242;
 }
 #client p {
 	    font-size      : 14px;
@@ -1645,11 +1638,11 @@ input[type="submit"]:focus {
 }
 
 .client-style #modal-window-box {
-    background          : -webkit-linear-gradient(left, #face2f 0%, #face2f 100%), -webkit-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -moz-linear-gradient(left, #face2f 0%, #face2f 100%), -moz-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -o-linear-gradient(left, #face2f 0%, #face2f 100%), -o-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : -ms-linear-gradient(left, #face2f 0%, #face2f 100%), -ms-linear-gradient(left, #face2f 0%, #face2f 100%);
-    background          : linear-gradient(left, #face2f 0%, #face2f 100%), linear-gradient(left, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
+    background          : -webkit-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -webkit-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -moz-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -moz-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -o-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -o-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : -ms-linear-gradient(left, #3f51b5 0%, #3f51b5 100%), -ms-linear-gradient(left, #3f51b5 0%, #3f51b5 100%);
+    background          : linear-gradient(left, #3f51b5 0%, #3f51b5 100%), linear-gradient(left, #3f51b5 0%, #3f51b5 100%); /* Chrome10+,Safari5.1+ */
     background-position : -100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 }
