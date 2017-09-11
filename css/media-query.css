@@ -166,7 +166,7 @@ Mobile landscape
 
     .navbar-wrapper {
         margin-top: 25px;
-        position: absolute !important;
+        /*position: absolute !important;*/
     }
     .navbar-wrapper.sticky-menu .container {
         left : 0;
