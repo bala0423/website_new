@@ -11,11 +11,11 @@ Mobile landscape
         margin-top: 90%;
 		
     }
-	 .carousel-inner
+	 #main-slider
 	 {
 	   display:none;
 	 }
-	 .carousel-inner1
+	 #main-slider1
 	 {
 	   display:block;
 	 }
@@ -37,7 +37,7 @@ Mobile landscape
 	   display:none;
 	 }
 		
-	.carousel-inner1
+	#main-slider1
 	 {
 	   display:block;
 	 }
