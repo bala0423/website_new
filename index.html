@@ -1,530 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
 
-    <title>Trumatics Software Labs</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link href="css/reset.css" rel="stylesheet"/>
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/fontello/css/fontello.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/media-query.css" rel="stylesheet">
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <head>
 
-</head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
 
-<body>
-<div class="body-inner-wrapper">
-<!-- Navbar
-================================================== -->
-<div id="menu-wrapper" class="navbar-wrapper" >
-    <div class="inner-container" >
-        <div id="navigation-bar" class="navbar navbar-inverse navbar-static-top" role="navigation" >
+        <title>Trumatics Software Labs</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        <!-- Font Awesome -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,300,300italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+        <!-- Material Design Bootstrap -->
+        <link href="css/materialize.css" rel="stylesheet">
+
+        <!-- Magnific-popup css -->
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Material Design Bootstrap -->
+        <!--<link href="css/progressbar.css" rel="stylesheet">-->
+
+        <!-- Material Design Bootstrap -->
+        <link href="css/mdb.min.css" rel="stylesheet">
+
+		
+
+        <!-- Your custom styles (optional) -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-desktop">
+        <!-- Start your project here-->
+        <!--Navbar-->
+
+        <div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+            <!--Collapse button-->
             <div class="container">
-                <div class="navbar-header" >
-                    <div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a id="logo" class="navbar-brand" href="index.html"><img class="" src="images/mainlogo.png"
-                                                                                 alt=""></a>
-                    </div>
-                </div>
-                <div id="menu" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li class="active home"><a href="#main-slider"> Home</a></li>
-                        <li class="service"><a href="#services-wrapper">Services</a></li>
-                        <li class="portfolio"><a href="#portfolio-wrapper">Clients</a></li>
-						<li class="about"><a href="#aboutus-wrapper">About</a></li>
-                        <!--<li class="team"><a href="#team-wrapper">Team</a></li>-->
-                        <li class="team"><a href="#team-wrapper">Case Studies</a></li>
-                        <li class="blog"><a href="#blog-wrapper">News</a></li>
-                        <li class="contact"><a href="#contact-wrapper">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                <a href="#" data-activates="mobile-menu" class="button-collapse right"><i class="fa fa-bars black-text"></i></a>
 
-<!-- Slideshow
-================================================== -->
-<div id="main-slider1" class="visible-xs visible-sm" style="background-image: url(images/slider/slide.png)">
-	<div class="container" style="height:700px;">
-		<div class="row">
-			<div class="col-sm-12" >
-			<div style="position: relative;"> 
-			<div style="text-align:center; padding-top:200px">
-			<h2>While the universe conspires for your <span style="color:#EB1C23;">THOUGHTS</span></h2>
-			<span class="content-nav">
-			<a href="#services-wrapper"><img src="images/slider/down-arrow.png"/></a>
-			</span>
-			</div>
-			</div>
-				
-			</div>
-		</div>
-	</div>
-</div>
-<div id="main-slider" class="no-margin">
-    <div class="carousel slide wet-asphalt">
-
-		    <div class="carousel-inner">
-            <div class="item active" style="background-image: url(images/slider/slide.png)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="carousel-content centered">
-                                <h2 class="animation animated-item-1">While the universe conspires for your </h2>
-
-                                <h2 class="animation animated-item-2"><span>THOUGHTS</span></h2>
-                                <br>
-								<span class="content-nav">
-									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
-								</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.item-->
-            <div class="item" style="background-image: url(images/slider/slide.png)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="carousel-content center centered">
-                                <h2 class="animation animated-item-1">Lets make it </h2>
-
-                                <h2 class="animation animated-item-2"><span>WORK</span></h2>
-                                <br>
-								<span class="content-nav">
-									<a href="#services-wrapper" class="animation animated-item-3">Go</a>
-								</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.item-->
-
-
-            <!--/.item-->
-        </div>
-        <!--/.carousel-inner-->
-    </div>
-    <!--/.carousel-->
-    <a class="prev hidden-xs rounded" href="#main-slider" data-slide="prev">
-        <i class="fa fa-angle-left"></i>
-    </a>
-    <a class="next hidden-xs rounded" href="#main-slider" data-slide="next">
-        <i class="fa fa-angle-right"></i>
-    </a>
-</div>
-<!--/#main-slider-->
-
-<div id="body-wrapper">
-
-<!-- Services
-================================================== -->
-<div id="services-wrapper">
-    <div id="services">
-        <div class="inner-wrapper">
-			<div class="container">
-				<h2><span>Services</span></h2>
-				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-box service-fold ">
-							<i class="fa fa-line-chart" aria-hidden="true"></i>
-							<div  class="contents">
-							<h3>Data Science</h3>
-							<p>"Real voyage of discovery consists not in seeking new landscapes, but in having new eyes."<br/>
-<i>- Marcel Proust.</i></p>
-							</div>
-							<p>
-							<a class="readmore1" data-linktype="modal" data-modalclass="services-style" href="datascience.html">Read
-							more <i class=" fa fa-arrow-circle-o-right"></i></a></p>
-							<br/>
-						</div>
-					</div>
-					
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-box service-fold">
-							<i class="fa fa-snowflake-o" aria-hidden="true"></i>
-							<div  class="contents">
-							<h3>Blockchain</h3>
-							<p>"Reshape the world of business and transform the old order of human affairs for the better."
-							<br/>- Don Tapscott</p>
-							</div>
-							<p>
-							<a class="readmore1" data-linktype="modal" data-modalclass="services-style" href="blockchain.html">Read
-							more <i class=" fa fa-arrow-circle-o-right"></i></a></p>
-							<br/>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						<div class="service-box service-fold">
-							<i class="fa fa-code" aria-hidden="true"></i>
-							<div  class="contents">
-							<h3>Rapid Apps</h3>
-							<p>"We see in order to move; we move in order to see."<br/>- William Gibson</p>
-							</div>
-							<p>
-							<a class="readmore1" data-linktype="modal" data-modalclass="services-style" href="rapid.html">Read
-							more <i class=" fa fa-arrow-circle-o-right"></i></a></p>
-							<br/>
-						</div>
-					</div>
-					
-															
-				</div>
-			</div>
-        </div>
-    </div>
-</div>
-<!--/#services-->
-
-<!-- Portfolio
-================================================== -->
-<div id="portfolio-wrapper">
-    <div id="portfolio">
-        <div class="inner-wrapper">
-			<div class="row">
-					<div class="container">
-						<h2><span>Clients</span></h2>
-						<div id="portfolios">
-						<div class="row">
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/1.png" alt=""></a>
-								</div>
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/2.png" alt=""></a>
-								</div>
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/3.png" alt=""></a>
-								</div>
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/4.png" alt=""></a>
-								</div>
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/5.png" alt=""></a>
-								</div>
-								<div class="col-md-2 col-sm-3 col-xs-4">
-									<a href="#"><img src="images/clients/6.png" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-        </div>
-    </div>
-</div>
-<!--/#portfolio-->
-
-<!-- About us
-================================================== -->
-<div id="aboutus-wrapper">
-    <div id="aboutus">
-        <div class="inner-wrapper">
-            <div class="row">
-                <div class="container">
-                    <h2><span> About us</span></h2>
-
-                    <div class="row contents">
-                        <div class="col-md-6">
-                            <p> We are trumatics technology professionals, a team that loves big disruptive ideas that transforms how people interact, learn and empower.  We put technology to work to achieve deeper insights and intelligence for the most pressing challenges. We believe in simple, inclusive, flexible and powerful solutions that's elegant and easy to use. </p>
-                        </div>
-						<div class="col-md-6"><img src="images/about_us.jpg" style="width:100%; height:auto;"/></div>
+                <!--Content for large and medium screens-->
+                <div class="navbar-desktop">
+                    <!--Navbar Brand-->
+                    <a class="navbar-brand" href="#home" style="margin-top:10px;"><img src="img/logo.png" alt=""/></a>
+                    <!--Links-->
+                    <ul class="nav navbar-nav pull-right hidden-md-down text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#case-studies">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+						 <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
                         
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/#about-us-->
-
-<div id="team-wrapper">
-<div id="team">
-<div class="inner-wrapper">
-<div class="row">
-<div class="container">
-<h2><span>Case Studies</span></h2>
-<div class="row">
-<div class="col-md-12 col-xs-12">
-	<div class="col-md-7 col-xs-12">
-		<div id="team-container">
-			<h3>Telecom</h3>
-			<h4>Objective:</h4>
-			<div class="contents">
-				<p>A leading global manufacturing and distributing company deals with a wide variety of telecom products in over 55 countries. Aiming at keeping their supply chain cost effective and efficient they were looking to find ways:</p>
-				<ul>
-				<li>To track and measure and gain insights into the performance of its entire portfolio of brands.</li>
-				<li>To predict market behaviors and devise plans to address and mitigate changes.</li>
-				<li>To enable to strengthen its revenue management function and make prudent business decisions.</li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-	<div class="col-md-5 col-xs-12">
-		<img src="images/telecom.jpg" style="width:100%; height:auto;"/>
-	</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12 col-xs-12">
-<div id="team-container">
-<h4>What we did:</h4>
-<br/>
-		<div class="contents">
-			<p>Trumatics is engaged in making their sales predictions automatic via machine learning. The current predictions involves crunching of many years of market absorption data for hundreds of products for projecting predictions for a specific period using in-house and external impacting data. The system is learning the market dynamics and also gets to know the patterns in which organization predicts the sales, it also corrects its own errors with actual sales numbers. Equipped with the current analytics platform as the base, the telecom company is moving into research where it analyzes new groups of products, open pricing strategy and markets for the future.</p>
-</div>		
-		<h4>What we achieved:</h4>
-		<div class="contents">
-		<ul>
-		<li>The future price prediction system has helped the key accounts to shed at least 30% of their work load as it’s now automated.</li>
-		<li>The benefit of reduced work and time has enabled their managers to concentrate on other areas like marketing to improve sales.</li>
-		<li>It has enabled the top management to ask questions like what if this happens in future, and thus they can better plan for upcoming events.</li>
-	</ul>
-		</div>
-		<br/>
-		<p style="text-align:right;"><a class="readmore" href="#client">Next<i class="fa fa-arrow-right"></i></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Team
-================================================== -->
-
-<!-- Client
-================================================== -->
-<div id="client-wrapper">
-    <div id="client">
-        <div class="inner-wrapper">
-            <div class="row">
-                <div class="container">
-                    <h2><span>Case Studies</span></h2>
-
-                    <div class="row">
-					<div class="col-md-6 col-xs-12">
-						<img src="images/hospitality.jpg" style="width:100%; height:auto;"/>
-						</div>
-                        <div class="col-md-6 col-xs-12">
-                            <div id="client-container">
-							<div class="contents">
-								<h3>Hospitality</h3>
-								<h4>Objective:</h4>
-								<p>A leading chain of restaurants interested in achieving the following objectives using their historical data</p>
-								<ul>
-									<li>Reduce the operational costs while retaining key revenue factors.</li>
-									<li>Reduce employee load and increase productivity.</li>
-									<li>To have better supply chain and vendor operations.</li>
-									<li>To monitor and manage customer loyalty and products quality.</li>
-								</ul>
-								       
-                                <div class="clearfix"></div>
-								</div>
-                            </div>
-                            
-                        </div>
-						
-                    </div>
-					<div class="row">
-                        <div class="col-md-12 col-xs-12">
-                            <div id="client-container">
-								<h4>What we did:</h4>
-								<br/>
-								<div class="contents">
-								<p><span >Menu Engineering</span>  was done. While we analyzed the menu along with sales, we were surprised to find out that more than 60% of the dishes had no or negligible sales. These dishes were slashed off the menu so that the kitchen can concentrate on what gets really sold.</p>
-								<p><span >Demand Vs Time</span> was analyzed and we found out that in certain days of the week the sales were low, hence some offers could be given to increase it and / or employees could be encouraged to take off on those days. We found similar pattern for certain months too.</p>
-								
-								<p><span >Demand Vs Season</span> was analyzed to see which dishes sold during which season, this helped them in keeping the right amount of stock, thus making their supply chain more efficient.</p>
-								
-								<p><span >Customer Details</span> along with bill were collected, loyal customers were spotted and rewards were generated automatically as discounts.</p>
-								
-								<p>Our analysis revealed that some units / restaurants generated more revenue for given investment. Meaning, their <span>Revenue Generation Index (RGI)</span> were way above others. So the management was asked to look into what made certain units efficient than others and replicate them to improve their returns.</p>
-								
-								</div>
-								<h4 style="font-weight:bold;">What we achieved:</h4>
-								<div class="contents">
-								<ul style="list-style:numbers; list-style-position:inside; margin-left:40px;padding-top:5px;">
-								<li> We achieved increased in revenue by 12 - 15%.</li>
-								<li> Decrease in operation cost was at least 8%.</li>
-								<li> Employee attrition rate reduced greatly.</li>
-								</ul>
-								</div>
-                                <div class="clearfix"></div>
-                            </div>
-                            
-                        </div>
-						
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- /#client -->
-
-<div id="blog-wrapper">
-<div id="blog">
-<div class="inner-wrapper">
-<div class="row">
-<div class="container">
-<h2><span>News</span></h2>
-
-<div class="row">
-<div class="col-md-12">
-<!-- start sw-rss-feed code --> 
-<script type="text/javascript"> 
-<!-- 
-rssfeed_url = new Array(); 
-rssfeed_url[0]="http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral";  
-rssfeed_frame_width="100%"; 
-rssfeed_frame_height="500"; 
-rssfeed_scroll="on"; 
-rssfeed_scroll_step="6"; 
-rssfeed_scroll_bar="on"; 
-rssfeed_target="_blank"; 
-rssfeed_font_size="14"; 
-rssfeed_font_face=""; 
-rssfeed_border="off"; 
-rssfeed_css_url=""; 
-rssfeed_title="on"; 
-rssfeed_title_name=""; 
-rssfeed_title_bgcolor="#232829"; 
-rssfeed_title_color="#cd2d2c"; 
-rssfeed_title_bgimage=""; 
-rssfeed_footer="off"; 
-rssfeed_footer_name="rss feed"; 
-rssfeed_footer_bgcolor="#fff"; 
-rssfeed_footer_color="#333"; 
-rssfeed_footer_bgimage=""; 
-rssfeed_item_title_length="100"; 
-rssfeed_item_title_color="#766D5C"; 
-rssfeed_item_bgcolor="#232829"; 
-rssfeed_item_bgimage=""; 
-rssfeed_item_border_bottom="off"; 
-rssfeed_item_source_icon="off"; 
-rssfeed_item_date="off"; 
-rssfeed_item_description="on"; 
-rssfeed_item_description_length="500"; 
-rssfeed_item_description_color="#fff"; 
-rssfeed_item_description_link_color="#CD2D2C"; 
-rssfeed_item_description_tag="off"; 
-rssfeed_no_items="0"; 
-rssfeed_cache = "d6389f06280acbef3945199323f456b5"; 
-//--> 
-</script> 
-<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
-</div>
-
-<div class="clearfix">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--/#blog-->
-
-<!-- Contact
-================================================== -->
-<div id="contact-wrapper">
-    <div id="contact">
-        <div class="inner-wrapper">
-            <div class="row">
-                <div class="container">
-                    <h2><span>Contact us</span></h2>
-
-                    <div class="row" >
-                        <div class="col-md-12">
-                            <div ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0002755505407!2d80.21342751482202!3d12.97183389085572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d96ab4931dd%3A0x78c3bad30dcaf7df!2s102%2C+Ram+Nagar+6th+St%2C+Srinivasa+Nagar%2C+Ram+Nagar%2C+Velachery%2C+Chennai%2C+Tamil+Nadu+600042!5e0!3m2!1sen!2sin!4v1504683471940" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                            <div class="contact-info">
-                                <ul>
-                                    <li class="first">
-                                        <p><i class="fa fa-map-marker fa-2"></i>  Trumatics Software Labs</p>
-
-                                        <p>Plot No.102 ,2nd Floor,<br>Ramnagar 6th street,<br/>Velachery,<br/>Chennai - 600042,
-										<br/>India.</p>
-                                    </li>
-                                    <li class="second">
-                                        <p><i class="fa fa-phone fa-2"></i> +91-44-48602770</p>
-
-                                        <p><i class="fa fa-envelope fa-2"></i><a href="mailto:reachus@trumatics.com" style="text-decoration:none;">reachus@trumatics.com</a></p>
-                                    </li>
-                                    
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
+                    </ul>
                     
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/#contact-wrapper-->
-</div>
-<!--/.body-wrapper-->
 
-<!-- Bottom
-================================================== -->
-<div id="bottom">
-    <div class="row">
-        <a id="to-top" href="#main-slider"><i class="fa fa-long-arrow-up"></i></a>
+                <!-- Content for mobile devices-->
+                <div class="navbar-mobile">
 
-        <div class="container">
-            <div class="col-xs-6">
-                <div class="social-shares">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <ul class="side-nav" id="mobile-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#case-studies">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+						 <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
+          </div>
+        </nav>
+        <!--/.Navbar-->
+
+
+        <div id="home" class="slider">
+            <ul class="slides">
+                
+                <li>
+                    <img src="img/home.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">
+                            <p>While the universe conspires for your  <h1>THOUGHTS</h1></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/home.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <div class="single_home">
+                            <p>Lets collaborate to make it <h1>WORK</h1></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+		<!-- About US-->
+		
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="main_about_area">
+                            <div class="head_title center m-y-3 wow fadeInUp">
+							<br/>
+                                <h2>About Us</h2>
+                                <p style="text-align:left;">We are trumatics technology professionals, a team that loves big disruptive ideas that transforms how people interact, learn and empower.  We put technology to work to achieve deeper insights and intelligence for the most pressing challenges. We believe in simple, inclusive, flexible and powerful solutions that's elegant and easy to use.</p>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+					<div class="col-sm-6">
+                        <div class="main_about_area">
+                            <div class="head_title center m-y-3 wow fadeInUp">
+							<img src="img/about_us.jpg" style="margin-top:50px;"/>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+				<div style="height:180px;">&nbsp;</div>
+				
             </div>
-            <div class="col-xs-6">
-                <div class="copyright">
-                    <p>Copyright &copy; 2017 Trumatics Software Labs </p>
+			 
+            <hr/>
+            <br/>
+        </section><!-- End of About Section-->
+		
+		<!-- Services Section -->
+        <section id="service" class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_service_area">
+                            <div class="head_title center m-y-3 wow fadeInUp">
+                                <br/>
+								<h2>Services</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_service  wow fadeInLeft">
+                                        <div class="service_icon center">
+                                            <i class="fa fa-line-chart m-b-3"></i>
+                                        </div>
+                                        <div class="s_service_text text-sm-center text-xs-center">
+                                            <h4>Data Science</h4>
+                                            <p><i style="font-size:15px;">"Real voyage of discovery consists not in seeking new landscapes, but in having new eyes."
+											</i></p>
+											<p style="font-size:15px; font-weight:bold;">- Marcel Proust.</p>
+                                        </div>
+
+                                        <div class="service_btn center">
+                                            <a  class="btn btn-danger waves-effect waves-red pop" data-linktype="modal" data-modalclass="services-style" href="datascience.html">See  More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_service wow fadeInUp">
+                                        <div class="service_icon center">
+                                            <i class="fa fa-th m-b-3"></i>
+                                        </div>
+                                        <div class="s_service_text text-sm-center text-xs-center">
+                                            <h4>Blockchain</h4>
+                                            <p><i style="font-size:15px;">"Reshape the world of business and transform the old order of human affairs for the better."
+											</i></p><p style="font-size:15px; font-weight:bold;">- Don Tapscott</p>
+                                        </div>
+
+                                        <div class="service_btn center">
+                                            <a  class="btn btn-danger waves-effect waves-red pop"   data-linktype="modal" data-modalclass="services-style" href="blockchain.html">See  More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="jumbotron single_service wow fadeInRight">
+                                        <div class="service_icon center">
+                                            <i class="fa fa-code m-b-3"></i>
+                                        </div>
+                                        <div class="s_service_text text-sm-center  text-xs-center">
+                                            <h4>Rapid Apps</h4>
+                                            <p><i style="font-size:15px;">"We see in order to move; we move in order to see."</i></p><p style="font-size:15px; font-weight:bold;">- William Gibson</p>
+                                        </div>
+
+                                        <div class="service_btn center">
+                                            <a  class="btn btn-danger waves-effect waves-red pop"   data-linktype="modal" data-modalclass="services-style" href="rapid.html">See  More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<!--/#bottom-->
+            <hr />
+        </section> <!-- End of service section -->
+		
 
-<!-- Modal Window
-================================================== -->
-<!-- Blog Modal-->
-<div id="modal-window-wrapper">
+		<!-- Case Study Section   -->
+        <section id="case-studies" class="case-studies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_case-studies_area m-y-3">
+                            <div class="head_title center  wow fadeInUp">
+							<br/>
+                                <h2>Case Studies</h2>
+                            </div>
+
+                            <div class="main_about_content">
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <div class="main_accordion wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+
+                                            <div class="single_accordion">
+                                                <button class="accordion active">TELECOM</button>
+                                                <div class="panel show">
+												<h4>Objective:</h4>
+												<div class="case-contents">
+												<p>A leading global manufacturing and distributing company deals with a wide variety of telecom products in over 55 countries. Aiming at keeping their supply chain cost effective and efficient they were looking to find ways:</p>
+												<ul>
+												<li>To track and measure and gain insights into the performance of its entire portfolio of brands.</li>
+												<li>To predict market behaviors and devise plans to address and mitigate changes.</li>
+												<li>To enable to strengthen its revenue management function and make prudent business decisions.</li>
+												</ul>
+												</div>
+												<br/>
+												<h4>What we did:</h4>
+												<div class="case-contents">
+												<p>Trumatics is engaged in making their sales predictions automatic via machine learning. The current predictions involves crunching of many years of market absorption data for hundreds of products for projecting predictions for a specific period using in-house and external impacting data. The system is learning the market dynamics and also gets to know the patterns in which organization predicts the sales, it also corrects its own errors with actual sales numbers. Equipped with the current analytics platform as the base, the telecom company is moving into research where it analyzes new groups of products, open pricing strategy and markets for the future.</p>
+												</div>
+												<br/>	
+												<h4>What we achieved:</h4>
+												<div class="case-contents">
+												<ul>
+												<li>The future price prediction system has helped the key accounts to shed at least 30% of their work load as it’s now automated.</li>
+												<li>The benefit of reduced work and time has enabled their managers to concentrate on other areas like marketing to improve sales.</li>
+												<li>It has enabled the top management to ask questions like what if this happens in future, and thus they can better plan for upcoming events.</li>
+												</ul>
+												</div>	
+	
+                                                </div>
+                                            </div>
+
+                                            <div class="single_accordion">
+                                                <button class="accordion">HOSPITALITY</button>
+                                                <div class="panel">
+                                                    <div class="case-contents">
+													<h4>Objective:</h4>
+													<p>A leading chain of restaurants interested in achieving the following objectives using their historical data</p>
+													<ul>
+													<li>Reduce the operational costs while retaining key revenue factors.</li>
+													<li>Reduce employee load and increase productivity.</li>
+													<li>To have better supply chain and vendor operations.</li>
+													<li>To monitor and manage customer loyalty and products quality.</li>
+													</ul>
+													</div>
+													
+													<h4>What we did:</h4>
+													<div class="case-contents">
+													<p><span >Menu Engineering</span>  was done. While we analyzed the menu along with sales, we were surprised to find out that more than 60% of the dishes had no or negligible sales. These dishes were slashed off the menu so that the kitchen can concentrate on what gets really sold.</p>
+													<p><span >Demand Vs Time</span> was analyzed and we found out that in certain days of the week the sales were low, hence some offers could be given to increase it and / or employees could be encouraged to take off on those days. We found similar pattern for certain months too.</p>
+													
+													<p><span >Demand Vs Season</span> was analyzed to see which dishes sold during which season, this helped them in keeping the right amount of stock, thus making their supply chain more efficient.</p>
+													
+													<p><span >Customer Details</span> along with bill were collected, loyal customers were spotted and rewards were generated automatically as discounts.</p>
+													
+													<p>Our analysis revealed that some units / restaurants generated more revenue for given investment. Meaning, their <span>Revenue Generation Index (RGI)</span> were way above others. So the management was asked to look into what made certain units efficient than others and replicate them to improve their returns.</p>
+
+												
+												</div>
+												<h4 style="font-weight:bold;">What we achieved:</h4>
+												<div class="case-contents">
+												<ul style="list-style:numbers; list-style-position:inside; margin-left:40px;padding-top:5px;">
+												<li> We achieved increased in revenue by 12 - 15%.</li>
+												<li> Decrease in operation cost was at least 8%.</li>
+												<li> Employee attrition rate reduced greatly.</li>
+												</ul>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			</div>
+            <hr />
+			<br/>
+        </section><!-- End of Case Study Section -->
+
+	`	<!--Clients section -->
+        <section id="clients" class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="main_clients_area center m-y-3">
+                        <div class="head_title center  wow fadeInUp">
+						<br/>
+						<br/>
+						<br/>
+                            <h2>Clients</h2>
+                        </div>
+
+                        <div class="main_clients_content p-y-3">
+                            <div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/1.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/2.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/3.png" alt="" />
+                                </div>
+                            </div>
+							 <div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/4.png" alt="" />
+                                </div>
+                            </div>
+                             <div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/5.png" alt="" class="img-client"/>
+                                </div>
+                            </div>
+							<div class="col-md-2">
+                                <div class="single_clients wow zoomIn">
+                                    <img src="img/6.png" alt="" class="img-client"/>
+                                </div>
+                            </div>
+                        </div>
+						
+                    </div>
+                </div>
+				<div style="height:180px;">&nbsp;</div>
+            </div>
+            <hr />
+        </section><!-- Clients Section -->
+		
+		<!-- News section -->
+		<section id="news" class="news">
+            <div class="main_news_area m-y-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+						<div class="head_title center m-y-3 wow fadeInUp">
+								<br/>
+								<br/>
+                                <h2>News</h2>
+                            </div>
+                            <div class="main_news_content center white-text wow fadeInUp">
+                               <!-- start sw-rss-feed code --> 
+								<script type="text/javascript"> 
+								<!-- 
+								rssfeed_url = new Array(); 
+								rssfeed_url[0]="http://feeds.feedburner.com/FeaturedBlogPosts-DataScienceCentral";  
+								rssfeed_frame_width="100%"; 
+								rssfeed_frame_height="500"; 
+								rssfeed_scroll="on"; 
+								rssfeed_scroll_step="6"; 
+								rssfeed_scroll_bar="on"; 
+								rssfeed_target="_blank"; 
+								rssfeed_font_size="16"; 
+								rssfeed_font_face="Roboto"; 
+								rssfeed_border="off"; 
+								rssfeed_css_url=""; 
+								rssfeed_title="on"; 
+								rssfeed_title_name=""; 
+								rssfeed_title_bgcolor="#000000"; 
+								rssfeed_title_color="#999999"; 
+								rssfeed_title_bgimage=""; 
+								rssfeed_footer="off"; 
+								rssfeed_footer_name="rss feed"; 
+								rssfeed_footer_bgcolor="#000000"; 
+								rssfeed_footer_color="#333"; 
+								rssfeed_footer_bgimage=""; 
+								rssfeed_item_title_length="100"; 
+								rssfeed_item_title_color="#766D5C"; 
+								rssfeed_item_bgcolor="#FFFFFF"; 
+								rssfeed_item_bgimage=""; 
+								rssfeed_item_border_bottom="off"; 
+								rssfeed_item_source_icon="off"; 
+								rssfeed_item_date="off"; 
+								rssfeed_item_description="on"; 
+								rssfeed_item_description_length="500"; 
+								rssfeed_item_description_color="#999999"; 
+								rssfeed_item_description_link_color="#CD2D2C"; 
+								rssfeed_item_description_tag="off"; 
+								rssfeed_no_items="0"; 
+								rssfeed_cache = "d6389f06280acbef3945199323f456b5"; 
+								//--> 
+								</script> 
+								<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </section> <!-- End of News section -->
+
+		<!-- Contact Us section -->
+        <section id="contact-us" class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact-us white-text p-y-2 m-t-3">
+					<div class="head_title center  wow fadeInUp">
+						<br/>
+						<br/>
+                            <h2>Contact US</h2>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12" >
+                            <div class="contents left m-t-1 text-md-left text-sm-center text-xs-center wow zoomIn">
+								<h5 >Trumatics Software Labs</h5>
+								<p>Plot No.102 ,2nd Floor,</p>
+								<p>Ramnagar 6th street,</p>
+								<p>Velachery,</p>
+								<p>Chennai - 600042,</p>
+								<p>India.</p>
+								<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+91-44-48602770</p>
+								<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <a href="mailto:reachus@trumatics.com" target="_top" style="color:#FF0000;">reachus@trumatics.com</a></p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-12 col-xs-12" style=" margin-top:5px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0002755505407!2d80.21342751482202!3d12.97183389085572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d96ab4931dd%3A0x78c3bad30dcaf7df!2s102%2C+Ram+Nagar+6th+St%2C+Srinivasa+Nagar%2C+Ram+Nagar%2C+Velachery%2C+Chennai%2C+Tamil+Nadu+600042!5e0!3m2!1sen!2sin!4v1504683471940" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End of Contact Us section -->
+
+
+		<!-- Footer section -->
+        <section id="footer" class="footer">
+            
+            <div class="main_coppyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="copyright_text m-t-2 text-xs-center">
+                                <p class="wow zoomIn" data-wow-duration="1s"> <a target="_black" href="#"> 
+
+Copyright &copy; 2017 Trumatics Software Labs
+</a> All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="socail_coppyright text-sm-right m-t-2 text-xs-center wow zoomIn">
+                                <a href="#!"><i class="fa fa-facebook"></i></a>
+                                <a href="#!"><i class="fa fa-twitter"></i></a>
+                                <a href="#!"><i class="fa fa-google-plus"></i></a>
+                                <a href="#!"><i class="fa fa-rss"></i></a>
+                                <a href="#!"><i class="fa fa-vimeo"></i></a>
+                                <a href="#!"><i class="fa fa-pinterest"></i></a>
+                                <a href="https://www.linkedin.com/company/trumatics-software-labs/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<!-- Blog Modal-->
+		<div id="modal-window-wrapper">
 <div id="modal-window" class="right-top-fold">
 <div id="modal-window-box">
 <div class="inner-wrapper">
@@ -534,25 +521,59 @@ rssfeed_cache = "d6389f06280acbef3945199323f456b5";
 
 </div>
 </div>
-<div class="modal-loading">Loading...</div>
+<div class='loaded'>&nbsp;</div>
 </div>
 </div>
 </div>
 </div>
 <div class="modal-overlay"></div>
 </div><!--/#Modal Window-->
-
-</div>
-<!--/.body-inner-wrapper-->
- <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/themehippo.js"></script>
-    <script src="js/script.js"></script>
+        <!-- /Start your project here-->
 
 
-</body>
+        <!-- SCRIPTS -->
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/tether.min.js"></script>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+
+        <!-- Wow js -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+
+        <!-- Mixitup js -->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+        <!-- Magnific-popup js -->
+        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+
+        <!-- accordion js -->
+        <script type="text/javascript" src="js/accordion.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/materialize.js"></script>
+
+        <script>
+            $(".button-collapse").sideNav();
+        </script>
+
+        <!-- wow js active -->
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+
+    </body>
+
 </html>
